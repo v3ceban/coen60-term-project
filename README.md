@@ -2,8 +2,7 @@
 
 ## Description
 
-Lorem ipsum dolor sit amet, qui minim labore adipisicing
-sint cillum sint consectetur cupidatat.
+To be added later...
 
 ## Installation and Contribution
 
