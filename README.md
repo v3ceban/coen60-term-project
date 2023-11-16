@@ -6,7 +6,8 @@ To be added later...
 
 ## Installation and Contribution
 
-0. Install git and php
+0. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+   and php
 
 1. Open your terminal app and clone this repo by running the following command
 
