@@ -15,8 +15,8 @@ To be added later...
    git clone https://github.com/v3ceban/coen60-term-project.git
    ```
 
-   This will download this repository to your pc as a folder. You can rename it
-   and place whenever you like. You only need to do this step once.
+   This will download the repository to your PC as a folder. You can rename it
+   and place it wherever you like. You only need to perform this step once.
 
 2. Before writing your code, make sure to update the repo by running
 
@@ -24,9 +24,9 @@ To be added later...
    git pull
    ```
 
-   This will download all the updates that other people made before you. It's **very**
-   important step that ensures you don't end up working on something that was
-   already done.
+   This step is **crucial** as it ensures that you do not end up working on
+   something that has already been done. It will download all the updates made
+   by others before you, which will help to avoid overlaps.
 
 3. After you are done making changes, run the following 3 commands:
 
@@ -44,7 +44,7 @@ To be added later...
    php -S localhost:8080
    ```
 
-   Make sure you run this command from the folder that contains this repo.
-   If your are unsure what folder you are currently in you can run `pwd` command.
-   You can navigate to the folder containing this repo by running `cd ~/path/to/folder`,
-   assuming you cloned the repo somewhere in your home folder.
+   Please ensure that you run this command from the folder that contains this repository.
+   If you are unsure of the current folder you are in, you can run the `pwd` command.
+   To navigate to the folder containing this repository, you can run `cd ~/path/to/folder`,
+   assuming you have cloned the repository somewhere in your home folder.
