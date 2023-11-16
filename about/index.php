@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <?php include 'head-content.php'?>
-    <title>Home</title>
+    <title>About</title>
   </head>
   <body>
     
