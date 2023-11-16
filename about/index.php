@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include 'head-content.php'?>
+    <?php include '../parts/head-content.php'?>
     <title>About</title>
   </head>
   <body>
