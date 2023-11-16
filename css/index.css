@@ -1,0 +1,16 @@
+@import "resets.css";
+@import "header.css";
+@import "main.css";
+@import "./pages/about.css";
+@import "./pages/archive.css";
+@import "./pages/form.css";
+@import "./pages/home.css";
+@import "footer.css";
+
+/* Only styles that rewrite the above css files */
+/* and/or affect every single page should go here */
+
+/* a { */
+/*   color: inherit; */
+/*   text-decoration: inherit; */
+/* } */
