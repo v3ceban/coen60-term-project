@@ -2,7 +2,15 @@
 
 ## Description
 
-To be added later...
+This is the Final Project for COEN60: Introduction to Web Technologies class.
+
+The primary objective of the project is to enhance the user experience for
+students who are engaged in their Senior Design projects at Santa Clara
+University. This will be achieved by developing a web application specifically
+designed for their use. The web application comprises two components:
+
+1. A form that enables students to search for team members and advisers.
+2. An archive of past projects that will aid them in generating ideas.
 
 ## Installation and Contribution
 
