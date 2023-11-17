@@ -1,0 +1,8 @@
+/*
+* This stylesheet contains the main conents of the home page
+* Every rule here here should start with .home
+* example rule targeting div in home's main
+* .home div {
+*   display: none;
+* }
+* */

@@ -1,0 +1,8 @@
+/*
+* This stylesheet contains the main conents of the form page
+* Every rule here here should start with .form
+* example rule targeting div in form's main
+* .form div {
+*   display: none;
+* }
+* */

@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php include "./parts/header.php" ?>
-    <main></main>
+    <main class="home"></main>
     <?php include "./parts/footer.php" ?>
   </body>
 </html>
