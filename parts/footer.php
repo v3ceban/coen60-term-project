@@ -1,3 +1,4 @@
 <footer>
-  <p>Coen60 Term Design Project, Santa Clara University, 2023.</p>
+  <p>&copy; <?= date("Y") ?> Santa Clara University</p>
+  <p>Coen 60 Term Project by Ellie, Holly, Mia, and Vlad </p>
 </footer>

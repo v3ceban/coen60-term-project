@@ -1,8 +1,30 @@
 /*
 * This stylesheet contains the main conents of the header page
-* Every rule here here should start with .header
+* Every rule here here should start with header
 * example rule targeting div in header's main
 * header div {
 *   display: none;
 * }
 * */
+
+header {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header nav {
+  flex-basis: 40%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
