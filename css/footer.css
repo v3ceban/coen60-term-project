@@ -8,8 +8,12 @@
 * */
 
 footer {
-  background: #b30738;
+  background: #9e1b32;
   color: #fff;
-  padding: 20px 0;
+  padding: 30px 0;
   text-align: center;
+}
+
+footer p:first-of-type {
+  margin-bottom: 0.5em;
 }

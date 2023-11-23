@@ -1,5 +1,5 @@
 <header>
-  <h1>Senior Design Finder</h1>
+  <h1><a href="../index.php">Senior Design Finder</a></h1>
   <nav>
     <ul>
       <li><a href="../index.php">Home</a></li>

@@ -6,3 +6,111 @@
 *   display: none;
 * }
 * */
+
+.form {
+  width: 80%;
+  margin: 50px auto 175px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+.form h2,
+.form h3 {
+  line-height: 100%;
+}
+
+.form form {
+  display: grid;
+  grid-template-columns: minmax(1fr, auto) auto;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.form h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+.form p {
+  margin-bottom: 15px;
+}
+
+.form h3 {
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+
+.form .info label,
+.form .info input {
+  display: block;
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+.form .info input {
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.form .info label {
+  font-size: 1.1em;
+}
+
+.form form .major {
+  grid-column: 2/3;
+}
+
+.form form .skills,
+.form form .major {
+  line-height: 130%;
+}
+
+.form form input[type="submit"] {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  max-width: 90%;
+  max-height: 40px;
+  border: none;
+  background: #9e1b32;
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.form form input[type="submit"]:hover,
+.form form input[type="submit"]:active {
+  background: #811e2d;
+}
+
+@media screen and (max-width: 1000px) {
+  .form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form form {
+    display: block;
+  }
+
+  .form form input[type="submit"] {
+    height: 40px;
+    display: block;
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .form form section:nth-of-type(2) h3,
+  .form form section:nth-of-type(3) h3 {
+    margin: 30px 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .form {
+    display: block;
+  }
+
+  .form p {
+    max-width: 90%;
+  }
+}

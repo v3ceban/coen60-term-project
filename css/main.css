@@ -6,3 +6,7 @@
 *   display: none;
 * }
 * */
+
+main p {
+  line-height: 130%;
+}
