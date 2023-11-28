@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <?php include "./parts/head-content.php"?>
+    <script src="./js/form-validation.js" defer></script>
     <title>Form</title>
   </head>
   <body>
@@ -28,15 +29,15 @@
           others!
         </p>
       </section>
-      <form action="./submission.php" method="post">
+      <form action="./submission.php" method="post" novalidate onsubmit="return validateForm()">
         <section class="info">
           <h3>Your Information</h3>
           <label for="Name">First and Last Name</label>
-          <input type="text" name="Name" id="Name" required />
+          <input type="text" name="Name" id="Name"/>
           <label for="Email">Email</label>
-          <input type="email" name="Email" id="Email" required />
+          <input type="email" name="Email" id="Email"/>
           <label for="Topic">Topic Idea</label>
-          <input type="text" name="Topic" id="Topic" required />
+          <input type="text" name="Topic" id="Topic"/>
         </section>
         <section class="skills">
           <h3>Your Skills</h3>
@@ -47,9 +48,9 @@
               id="Backend"
               title="e.g. C, Python, Java"
             />
-            <label for="Backend" title="e.g. C, Python, Java"
-              >Backend Programming</label
-            >
+            <label for="Backend" title="e.g. C, Python, Java">
+              Backend Programming
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -58,9 +59,9 @@
               id="CAD"
               title="e.g. AutoCAD, SolidWorks, CATIA"
             />
-            <label for="CAD" title="e.g. AutoCAD, SolidWorks, CATIA"
-            >CAD Software</label
-            >
+            <label for="CAD" title="e.g. AutoCAD, SolidWorks, CATIA">
+              CAD Software
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -69,9 +70,9 @@
               id="DataAnalysis"
               title="e.g. Excel, Python, R"
             />
-            <label for="DataAnalysis" title="e.g. Excel, Python, R"
-            >Data Analysis</label
-            >
+            <label for="DataAnalysis" title="e.g. Excel, Python, R">
+              Data Analysis
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -80,9 +81,9 @@
               id="Design"
               title="e.g. Adobe Photoshop, Sketch, Illustrator"
             />
-            <label for="Design" title="e.g. Adobe Photoshop, Sketch, Illustrator"
-            >Design</label
-            >
+            <label for="Design" title="e.g. Adobe Photoshop, Sketch, Illustrator">
+              Design
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -93,9 +94,9 @@
             />
             <label
               for="Electronics"
-              title="e.g. PCB design, Circuit analysis, FPGA programming"
-            >Electronics</label
-            >
+              title="e.g. PCB design, Circuit analysis, FPGA programming">
+              Electronics
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -104,9 +105,9 @@
               id="Frontend"
               title="e.g. HTML, CSS, JavaScript, React"
             />
-            <label for="Frontend" title="e.g. HTML, CSS, JavaScript, React"
-            >Frontend Programming</label
-            >
+            <label for="Frontend" title="e.g. HTML, CSS, JavaScript, React">
+              Frontend Programming
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -117,9 +118,9 @@
             />
             <label
               for="MaterialScience"
-              title="e.g. Metallurgy, Polymer science, Nanotechnology"
-            >Material Science</label
-            >
+              title="e.g. Metallurgy, Polymer science, Nanotechnology">
+              Material Science
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -130,9 +131,9 @@
             />
             <label
               for="Prototyping"
-              title="e.g. 3D printing, CNC machining, Laser cutting"
-            >Prototyping</label
-            >
+              title="e.g. 3D printing, CNC machining, Laser cutting">
+              Prototyping
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -143,9 +144,9 @@
             />
             <label
               for="Research"
-              title="e.g. Literature review, Data collection, Hypothesis testing"
-            >Research</label
-            >
+              title="e.g. Literature review, Data collection, Hypothesis testing">
+              Research
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -154,9 +155,9 @@
               id="Robotics"
               title="e.g. ROS, Kinematics, Computer vision"
             />
-            <label for="Robotics" title="e.g. ROS, Kinematics, Computer vision"
-            >Robotics</label
-            >
+            <label for="Robotics" title="e.g. ROS, Kinematics, Computer vision">
+              Robotics
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -165,9 +166,9 @@
               id="Simulation"
               title="e.g. ANSYS, MATLAB, Simulink"
             />
-            <label for="Simulation" title="e.g. ANSYS, MATLAB, Simulink"
-            >Simulation</label
-            >
+            <label for="Simulation" title="e.g. ANSYS, MATLAB, Simulink">
+              Simulation
+            </label>
           </div>
           <div class="checkbox">
             <input
@@ -178,43 +179,43 @@
             />
             <label
               for="TWriting"
-              title="e.g. Technical reports, Documentation, Research papers"
-            >Technical Writing</label
-            >
+              title="e.g. Technical reports, Documentation, Research papers">
+              Technical Writing
+            </label>
           </div>
         </section>
         <section class="major">
           <h3>Your Major</h3>
           <div class="radio">
-            <input type="radio" name="Major" value="BIO" id="BIO" required />
+            <input type="radio" name="Major" value="BIO" id="BIO"/>
             <label for="BIO">Bioengineering</label>
           </div>
           <div class="radio">
-            <input type="radio" name="Major" value="CIV" id="CIV" required />
+            <input type="radio" name="Major" value="CIV" id="CIV"/>
             <label for="CIV">Civil Engineering</label>
           </div>
           <div class="radio">
-            <input type="radio" name="Major" value="CSEN" id="CSEN" required />
+            <input type="radio" name="Major" value="CSEN" id="CSEN"/>
             <label for="CSEN">Computer Science and Engineering</label>
           </div>
           <div class="radio">
-            <input type="radio" name="Major" value="ECEN" id="ECEN" required />
+            <input type="radio" name="Major" value="ECEN" id="ECEN"/>
             <label for="ECEN">Electrical and Computer Engineering</label>
           </div>
           <div class="radio">
-            <input type="radio" name="Major" value="ELEN" id="ELEN" required />
+            <input type="radio" name="Major" value="ELEN" id="ELEN"/>
             <label for="ELEN">Electrical Engineering</label>
           </div>
           <div class="radio">
-            <input type="radio" name="Major" value="GEN" id="GEN" required />
+            <input type="radio" name="Major" value="GEN" id="GEN"/>
             <label for="GEN">General Engineering</label>
           </div>
           <div class="radio">
-            <input type="radio" name="Major" value="MECH" id="MECH" required />
+            <input type="radio" name="Major" value="MECH" id="MECH"/>
             <label for="MECH">Mechanical Engineering</label>
           </div>
           <div class="radio">
-            <input type="radio" name="Major" value="WDEN" id="WDEN" required />
+            <input type="radio" name="Major" value="WDEN" id="WDEN"/>
             <label for="WDEN">Web Design and Engineering</label>
           </div>
         </section>
