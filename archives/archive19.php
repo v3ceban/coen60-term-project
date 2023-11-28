@@ -3,6 +3,7 @@
     <?php include "../parts/head-content-archive.php"?>
     <link rel="stylesheet" href="../css/pages/archive.css" />
     <title>Archive 2019</title>
+    <script src="../js/archives.js" defer></script>
   </head>
 
         <body class="main">
@@ -106,21 +107,6 @@
                         </div></td>
                     </tr>
                 </table>
-
-                <script>
-                var acc = document.getElementsByClassName("accordion");
-                var i;
-                for (i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var panel = this.nextElementSibling;
-                        if (panel.style.display === "block")
-                            panel.style.display = "none";
-                        else
-                            panel.style.display = "block";
-                    });
-                }
-                </script>
                 <p>The <a href="https://www.scu.edu/media/school-of-engineering/pdfs/2019-State-of-the-School---Web_rev.pdf" >2019 State of the School Address</a> 
                     was presented by Ron Danielson, Ph.D., Interim School of Engineering Dean.
                 </p>

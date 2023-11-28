@@ -3,6 +3,7 @@
     <?php include "../parts/head-content-archive.php"?>
     <link rel="stylesheet" href="../css/pages/archive.css" />
     <title>Archive 2015</title>
+    <script src="../js/archives.js" defer></script>
   </head>
 
     <body class="main">
@@ -105,22 +106,6 @@
             </td>
                 </tr>
             </table>
-
-            <script>
-                var acc = document.getElementsByClassName("accordion");
-                var i;
-                for (i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var panel = this.nextElementSibling;
-                        if (panel.style.display === "block")
-                            panel.style.display = "none";
-                        else
-                            panel.style.display = "block";
-                    });
-                }
-            </script>
-
             <!--Jump Links-->
             <div class="jumpLinks">
                 <a href="#bioe">Bioengineering Session</a>
