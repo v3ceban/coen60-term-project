@@ -10,6 +10,17 @@
 .archive {
   display: grid;
   grid-template-columns: auto 160px;
+  max-width: 100%;
+}
+
+.archive img {
+  max-width: 100%;
+}
+
+.archive ul ul {
+  list-style: initial;
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .archive .main {
@@ -28,10 +39,12 @@
   width: 100%;
   background-color: #e9e8d5;
   overflow: auto;
+  display: flex;
 }
 
 .archive .jumpLinks a {
   float: left;
+  line-height: 1.5em;
   padding: 12px;
   color: #9e1b32;
   text-decoration: none;
@@ -66,6 +79,7 @@
 .archive .projectTitle {
   font-weight: bold;
   font-size: large;
+  margin: 15px 0;
 }
 
 .archive .projectDescription {

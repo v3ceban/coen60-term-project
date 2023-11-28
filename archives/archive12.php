@@ -11,11 +11,10 @@
     <main class="archive">
       <!--Sidebar navigation-->
       <div class="content">
-        <h1>42nd Annual Senior Design Conference</h1>
+        <h3>42nd Annual Senior Design Conference</h3>
         <img
           src="Photos/2012Banner.jpeg"
           alt="Banner for the 2012 Senior Design Conference"
-          width="1100"
         />
         <!--Jump Links-->
         <div class="jumpLinks">
@@ -26,7 +25,7 @@
           <a href="#idsc">Interdisciplinary Session</a>
         </div>
 
-        <h2 id="bioe">Bioengineering</h2>
+        <h3 id="bioe">Bioengineering</h3>
         <ul>
           <li class="projectTitle">Reverse Protein Engineering</li>
           <ul>
@@ -151,7 +150,7 @@
             </li>
           </ul>
         </ul>
-        <h2 id="ceng">Civil Engineering</h2>
+        <h3 id="ceng">Civil Engineering</h3>
         <ul>
           <li class="projectTitle">Highway Interchange Design</li>
           <ul>
@@ -290,7 +289,7 @@
             </li>
           </ul>
         </ul>
-        <h2 id="coen">Computer Science and Engineering</h2>
+        <h3 id="coen">Computer Science and Engineering</h3>
         <ul>
           <li class="projectTitle">Mobile Sea</li>
           <ul>
@@ -428,7 +427,7 @@
             </li>
           </ul>
         </ul>
-        <h2 id="elen">Electrical Engineering</h2>
+        <h3 id="elen">Electrical Engineering</h3>
         <ul>
           <li class="projectTitle">
             Body Wearable Direction Finding Antenna Arrays
@@ -563,7 +562,7 @@
             </li>
           </ul>
         </ul>
-        <h2 id="mech">Mechanical Engineering</h2>
+        <h3 id="mech">Mechanical Engineering</h3>
         <ul>
           <li class="projectTitle">
             Design of a Low-Profile Solar Tracker with Hybridized Control
@@ -702,7 +701,7 @@
             </li>
           </ul>
         </ul>
-        <h2 id="idsc">Interdisciplinary Session</h2>
+        <h3 id="idsc">Interdisciplinary Session</h3>
         <ul>
           <li class="projectTitle">Formula Hybrid - Electrical</li>
           <ul>
@@ -840,7 +839,7 @@
           </ul>
         </ul>
       </div>
-      <?php include "../parts/sidenav.php"?>
+      <?php include "../parts/sidenav-arvhive.php"?>
     </main>
     <?php include "../parts/footer.php" ?>
   </body>
