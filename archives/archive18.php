@@ -1,34 +1,21 @@
 <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="archives.css">
-    </head>
+  <head>
+    <?php include "../parts/head-content-archive.php"?>
+    <link rel="stylesheet" href="../css/pages/archive.css" />
+    <title>Archive 2018</title>
+  </head>
 
-    <body>
-        <body class="main">
-            <!--Sidebar navigation-->
-            <div class="sidenav">
-                <a href="archive22.html">2022</a>
-                <a href="archive21.html">2021</a>
-                <a href="archive20.html">2020</a>
-                <a href="archive19.html">2019</a>
-                <a href="archive18.html">2018</a>
-                <a href="archive17.html">2017</a>
-                <a href="archive16.html">2016</a>
-                <a href="archive15.html">2015</a>
-                <a href="archive14.html">2014</a>
-                <a href="archive13.html">2013</a>
-                <a href="archive12.html">2012</a>
-            </div>
-    
-            <h1>49th Annual Senior Design Conference</h1>
-
-            <br>
-
+ <body class="main">
+    <?php include "../parts/header.php" ?>
+    <main class="archive">
+      <div class="content">
+  
+            <h2>48th Annual Senior Design Conference</h2>
             <div class="intro">
-                <a href="https://www.scu.edu/media/school-of-engineering/pdfs/senior-design/EngineeringConferenceBooklet-FINAL.pdf">
-                    <img src="Photos/2019Banner.jpeg" class="bannerImg"
-                    alt="Banner for the 2019 Senior Design Conference" 
+
+                <a href="https://www.scu.edu/media/school-of-engineering/pdfs/senior-design/13727_Engineer-2018-Design-Conf-PRG_final.pdf">
+                    <img src="Photos/2018Banner.jpeg" class="bannerImg"
+                    alt="Banner for the 2018 Senior Design Conference" 
                     height="300" style="margin-right: 15px;">
                 </a>
 
@@ -135,22 +122,20 @@
                     });
                 }
                 </script>
-                <p>The <a href="https://www.scu.edu/media/school-of-engineering/pdfs/2019-State-of-the-School---Web_rev.pdf" >2019 State of the School Address</a> 
-                    was presented by Ron Danielson, Ph.D., Interim School of Engineering Dean.
+
+                <p>The <a href="https://issuu.com/scuengineering/docs/2018_state_of_the_school__1_" >2018 State of the School Address</a> 
+                    was presented by Alfonso (Al) Ortega, School of Engineering Dean and Sobrato Professor of Engineering.
                 </p>
-
             </div>
-                        <!--Jump Links-->
-                        <div class="jumpLinks">
-                            <a href="#bioe">Bioengineering Session</a>
-                            <a href="#ceng">Civil Engineering Session</a>
-                            <a href="#coen"> Computer Science and Engineering Session</a>
-                            <a href="#mech">Mechanical Engineering Session</a>
-                            <a href="#idsc">Interdisciplinary Session</a>
-                        </div>
-            <br>
-
-            <h2 id="bioe">BIOENGINEERING</h2>
+            <!--Jump Links-->
+            <div class="jumpLinks">
+                <a href="#bioe">Bioengineering Session</a>
+                <a href="#ceng">Civil Engineering Session</a>
+                <a href="#coen"> Computer Science and Engineering Session</a>
+                <a href="#mech">Mechanical Engineering Session</a>
+                <a href="#idsc">Interdisciplinary Session</a>
+            </div>
+            <h3 id="bioe">BIOENGINEERING</h3>
                 <ul>
                     <li class="projectTitle">Reverse Protein Engineering</li>
                         <ul>
@@ -262,7 +247,7 @@
                             </li>
                         </ul>
                 </ul>
-            <h2 id="ceng">CIVIL ENGINEERING</h2>
+            <h3 id="ceng">CIVIL ENGINEERING</h3>
             <ul>
                     <li class="projectTitle">Highway Interchange Design</li>
                         <ul>
@@ -388,8 +373,7 @@
                             </li>
                         </ul>
             </ul>
-            </body>
-            <h2 id="coen">COMPUTER SCIENCE and ENGINEERING</h2>
+            <h3 id="coen">COMPUTER SCIENCE and ENGINEERING</h3>
             <ul>
                 <li class="projectTitle">Mobile Sea</li>
                     <ul>
@@ -516,7 +500,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="elen">ELECTRICAL ENGINEERING</h2>
+            <h3 id="elen">ELECTRICAL ENGINEERING</h3>
             <ul>
                 <li class="projectTitle">Body Wearable Direction Finding Antenna Arrays</li>
                     <ul>
@@ -636,7 +620,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="mech">MECHANICAL ENGINEERING</h2>
+            <h3 id="mech">MECHANICAL ENGINEERING</h3>
             <ul>
                 <li class="projectTitle">Design of a Low-Profile Solar Tracker with Hybridized Control</li>
                     <ul>
@@ -759,7 +743,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="idsc">INTERDISCIPLINARY SESSIONS</h2>
+            <h3 id="idsc">INTERDISCIPLINARY SESSIONS</h3>
             <ul>
                 <li class="projectTitle">Formula Hybrid - Electrical</li>
                     <ul>
@@ -884,5 +868,9 @@
                             </li>
                         </ul>
             </ul>
-    </body>
+     </div>
+      <?php include "../parts/sidenav-arvhive.php"?>
+    </main>
+    <?php include "../parts/footer.php" ?>
+  </body>
 </html>

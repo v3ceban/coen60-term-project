@@ -9,9 +9,8 @@
   <body class="main">
     <?php include "../parts/header.php" ?>
     <main class="archive">
-      <!--Sidebar navigation-->
       <div class="content">
-        <h3>42nd Annual Senior Design Conference</h3>
+        <h2>42nd Annual Senior Design Conference</h2>
         <img
           src="Photos/2012Banner.jpeg"
           alt="Banner for the 2012 Senior Design Conference"

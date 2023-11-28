@@ -1,126 +1,107 @@
 <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="archives.css">
-    </head>
-
-    <body>
+<head>
+    <?php include "../parts/head-content-archive.php"?>
+    <link rel="stylesheet" href="../css/pages/archive.css" />
+    <title>Archive 2017</title>
+  </head>
         <body class="main">
-            <!--Sidebar navigation-->
-            <div class="sidenav">
-                <a href="archive22.html">2022</a>
-                <a href="archive21.html">2021</a>
-                <a href="archive20.html">2020</a>
-                <a href="archive19.html">2019</a>
-                <a href="archive18.html">2018</a>
-                <a href="archive17.html">2017</a>
-                <a href="archive16.html">2016</a>
-                <a href="archive15.html">2015</a>
-                <a href="archive14.html">2014</a>
-                <a href="archive13.html">2013</a>
-                <a href="archive12.html">2012</a>
-            </div>
-    
-            <h1>48th Annual Senior Design Conference</h1>
-            <br>
-            <div class="intro">
+    <?php include "../parts/header.php" ?>
+    <main class="archive">
+      <div class="content">
+            <h2>47th Annual Senior Design Conference</h2>
+            <img src="Photos/2017Banner.jpeg" class="bannerImg"
+            alt="Banner for the 2017 Senior Design Conference" height="300" style="margin-right: 15px;">
 
-                <a href="https://www.scu.edu/media/school-of-engineering/pdfs/senior-design/13727_Engineer-2018-Design-Conf-PRG_final.pdf">
-                    <img src="Photos/2018Banner.jpeg" class="bannerImg"
-                    alt="Banner for the 2018 Senior Design Conference" 
-                    height="300" style="margin-right: 15px;">
-                </a>
-
-                <table>
-                    <tr><th colspan="2">Session Winners</th></tr>
-                    <!--Row 1-->
-                    <tr>
-                    <td>
-                        <button class="accordion">Bioengineering Session Winners</button>
-                        <div class="panel">
-                            <p>
-                                <ul>
-                                    <li>3D Printed Hollow Microneedles for 
-                                        Transdermal Delivery of Encapsulated Cells</li>
-                                    <li>Health.ai—A Clinical Framework for Adaptive, Transparent Diagnostics 
-                                        by Artificial Intelligence Systems</li>
-                                    <li>Engineered Living Nanoparticles for the 
-                                        Treatment of Inflammatory Diseases</li>
-                                </ul>
-                            </p>
-                        </div></td>
-                    <td>                <button class="accordion">Civil Engineering Session Winners</button>
-                        <div class="panel">
-                            <p>
-                                <ul>
-                                    <li>Cyclic Testing of Reinforced Earthbag Walls</li>
-                                    <li>Charney Hall Redesign Using Cross-Laminated Timber</li>
-                                    <li>Design of a Green Community</li>
-                                    <li>Climate Smart Farming in East Africa</li>
-                                </ul>
-                            </p>
-                        </div></td>
-                    </tr>
-                    <!--Row 2-->
-                    <tr>
-                    <td>
-                        <button class="accordion">Computer Engineering Session Winners</button>
-                        <div class="panel">
-                            <p>
-                                <ul>
-                                    <li>Communication System for Firefighters</li>
-                                    <li>Perfect Snap</li>
-                                    <li>SCU Evals</li>
-                                    <li>Pipeworks: An Out-of-the-Box Pipeline to Manage Computer Graphics Productions 
-                                        and Streamline Digital Content Creation</li>
-                                    <li>Applying Blockchain Technologies to Digital Voting Algorithms</li>
-                                    <li>Computational Music Biofeedback for Stress Relief</li>
-                                </ul>
-                            </p>
-                        </div></td>
-                    <td>
-                        <button class="accordion">Electrical Engineering Session Winners</button>
-                        <div class="panel">
-                            <p>
-                                <ul>
-                                    <li>At-Home Neurofeedback Treatment</li>
-                                    <li>Process Optimization for Carbon Nanotube-on Graphene Fabrication</li>
-                                </ul>
-                            </p>
-                        </div></td>
-                    </tr>
-                    <!--Row 3-->
-                    <tr>
-                    <td>
-                        <button class="accordion">Mechanical Engineering Session Winners</button>
-                        <div class="panel">
-                            <p>
-                                <ul>
-                                    <li>Active Stabilized High Power Rocket (Savitar I)</li>
-                                    <li>3D Printed Carbon Fiber eBike Frame</li>
-                                    <li>6U CubeSat Platform for Disaster Relief Communications</li>
-                                    <li>SCU Baja 2018</li>
-                                    <li>Dehydr8</li>
-                
-                                </ul>
-                            </p>
-                        </div></td>
-                    <td>
-                        <button class="accordion">Interdisciplinary Session Winners</button>
-                        <div class="panel">
-                            <p>
-                                <ul>
-                                    <li>The Human Keyboard</li>
-                                    <li>Halo</li>
-                                    <li>Enhancing Mobility and Independence of Wheelchair Users</li>
-                                    <li>The Vessel for Autonomous Research Underwater (The VARUNA)</li>
-                                </ul>
-                            </p>
-                        </div></td>
-                    </tr>
-                </table>
-
-                <script>
+            <table>
+                <tr><th colspan="2">Session Winners</th></tr>
+                <!--Row 1-->
+                <tr>
+                <td>
+                    <button class="accordion">Bioengineering Session Winners</button>
+                    <div class="panel">
+                        <p>
+                            <ul>
+                                <li>3D Printed Hollow Microneedles for 
+                                    Transdermal Delivery of Encapsulated Cells</li>
+                                <li>Health.ai—A Clinical Framework for Adaptive, Transparent Diagnostics 
+                                    by Artificial Intelligence Systems</li>
+                                <li>Engineered Living Nanoparticles for the 
+                                    Treatment of Inflammatory Diseases</li>
+                            </ul>
+                        </p>
+                    </div></td>
+                <td>                <button class="accordion">Civil Engineering Session Winners</button>
+                    <div class="panel">
+                        <p>
+                            <ul>
+                                <li>Cyclic Testing of Reinforced Earthbag Walls</li>
+                                <li>Charney Hall Redesign Using Cross-Laminated Timber</li>
+                                <li>Design of a Green Community</li>
+                                <li>Climate Smart Farming in East Africa</li>
+                            </ul>
+                        </p>
+                    </div></td>
+                </tr>
+                <!--Row 2-->
+                <tr>
+                <td>
+                    <button class="accordion">Computer Engineering Session Winners</button>
+                    <div class="panel">
+                        <p>
+                            <ul>
+                                <li>Communication System for Firefighters</li>
+                                <li>Perfect Snap</li>
+                                <li>SCU Evals</li>
+                                <li>Pipeworks: An Out-of-the-Box Pipeline to Manage Computer Graphics Productions 
+                                    and Streamline Digital Content Creation</li>
+                                <li>Applying Blockchain Technologies to Digital Voting Algorithms</li>
+                                <li>Computational Music Biofeedback for Stress Relief</li>
+                            </ul>
+                        </p>
+                    </div></td>
+                <td>
+                    <button class="accordion">Electrical Engineering Session Winners</button>
+                    <div class="panel">
+                        <p>
+                            <ul>
+                                <li>At-Home Neurofeedback Treatment</li>
+                                <li>Process Optimization for Carbon Nanotube-on Graphene Fabrication</li>
+                            </ul>
+                        </p>
+                    </div></td>
+                </tr>
+                <!--Row 3-->
+                <tr>
+                <td>
+                    <button class="accordion">Mechanical Engineering Session Winners</button>
+                    <div class="panel">
+                        <p>
+                            <ul>
+                                <li>Active Stabilized High Power Rocket (Savitar I)</li>
+                                <li>3D Printed Carbon Fiber eBike Frame</li>
+                                <li>6U CubeSat Platform for Disaster Relief Communications</li>
+                                <li>SCU Baja 2018</li>
+                                <li>Dehydr8</li>
+            
+                            </ul>
+                        </p>
+                    </div></td>
+                <td>
+                    <button class="accordion">Interdisciplinary Session Winners</button>
+                    <div class="panel">
+                        <p>
+                            <ul>
+                                <li>The Human Keyboard</li>
+                                <li>Halo</li>
+                                <li>Enhancing Mobility and Independence of Wheelchair Users</li>
+                                <li>The Vessel for Autonomous Research Underwater (The VARUNA)</li>
+                            </ul>
+                        </p>
+                    </div></td>
+                </tr>
+            </table>
+            
+            <script>
                 var acc = document.getElementsByClassName("accordion");
                 var i;
                 for (i = 0; i < acc.length; i++) {
@@ -134,11 +115,6 @@
                     });
                 }
                 </script>
-
-                <p>The <a href="https://issuu.com/scuengineering/docs/2018_state_of_the_school__1_" >2018 State of the School Address</a> 
-                    was presented by Alfonso (Al) Ortega, School of Engineering Dean and Sobrato Professor of Engineering.
-                </p>
-            </div>
             <!--Jump Links-->
             <div class="jumpLinks">
                 <a href="#bioe">Bioengineering Session</a>
@@ -147,9 +123,7 @@
                 <a href="#mech">Mechanical Engineering Session</a>
                 <a href="#idsc">Interdisciplinary Session</a>
             </div>
-            <br>
-
-            <h2 id="bioe">BIOENGINEERING</h2>
+            <h3 id="bioe">Bioengineering</h3>
                 <ul>
                     <li class="projectTitle">Reverse Protein Engineering</li>
                         <ul>
@@ -261,7 +235,7 @@
                             </li>
                         </ul>
                 </ul>
-            <h2 id="ceng">CIVIL ENGINEERING</h2>
+            <h3 id="ceng">Civil Engineering</h3>
             <ul>
                     <li class="projectTitle">Highway Interchange Design</li>
                         <ul>
@@ -387,8 +361,7 @@
                             </li>
                         </ul>
             </ul>
-            </body>
-            <h2 id="coen">COMPUTER SCIENCE and ENGINEERING</h2>
+            <h3 id="coen">Computer Science and Engineering</h3>
             <ul>
                 <li class="projectTitle">Mobile Sea</li>
                     <ul>
@@ -515,7 +488,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="elen">ELECTRICAL ENGINEERING</h2>
+            <h3 id="elen">Electrical Engineering</h3>
             <ul>
                 <li class="projectTitle">Body Wearable Direction Finding Antenna Arrays</li>
                     <ul>
@@ -635,7 +608,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="mech">MECHANICAL ENGINEERING</h2>
+            <h3 id="mech">Mechanical Engineering</h3>
             <ul>
                 <li class="projectTitle">Design of a Low-Profile Solar Tracker with Hybridized Control</li>
                     <ul>
@@ -758,7 +731,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="idsc">INTERDISCIPLINARY SESSIONS</h2>
+            <h3 id="idsc">Interdisciplinary Session</h3>
             <ul>
                 <li class="projectTitle">Formula Hybrid - Electrical</li>
                     <ul>
@@ -883,5 +856,9 @@
                             </li>
                         </ul>
             </ul>
-    </body>
+    </div>
+      <?php include "../parts/sidenav-arvhive.php"?>
+    </main>
+    <?php include "../parts/footer.php" ?>
+  </body>
 </html>

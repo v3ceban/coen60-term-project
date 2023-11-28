@@ -1,30 +1,17 @@
 <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="archives.css">
-    </head>
+  <head>
+    <?php include "../parts/head-content-archive.php"?>
+    <link rel="stylesheet" href="../css/pages/archive.css" />
+    <title>Archive 2016</title>
+  </head>
 
-    <body>
-        <body class="main">
-            <!--Sidebar navigation-->
-            <div class="sidenav">
-                <a href="archive22.html">2022</a>
-                <a href="archive21.html">2021</a>
-                <a href="archive20.html">2020</a>
-                <a href="archive19.html">2019</a>
-                <a href="archive18.html">2018</a>
-                <a href="archive17.html">2017</a>
-                <a href="archive16.html">2016</a>
-                <a href="archive15.html">2015</a>
-                <a href="archive14.html">2014</a>
-                <a href="archive13.html">2013</a>
-                <a href="archive12.html">2012</a>
-            </div>
-    
-            <h1>46th Annual Senior Design Conference</h1>
+  <body class="main">
+      <?php include "../parts/header.php" ?>
+      <main class="archive">
+        <div class="content">
+            <h2>46th Annual Senior Design Conference</h2>
             <img src="Photos/2016Banner.jpeg" class="bannerImg"
             alt="Banner for the 2016 Senior Design Conference" height="300" style="margin-right: 15px;">
-
             <table>
                 <tr><th colspan="2">Session Winners</th></tr>
                 <!--Row 1-->
@@ -138,7 +125,7 @@
                 <a href="#idsc">Interdisciplinary Session</a>
             </div>
     
-            <h2 id="bioe">Bioengineering</h2>
+            <h3 id="bioe">Bioengineering</h3>
                 <ul>
                     <li class="projectTitle">Reverse Protein Engineering</li>
                         <ul>
@@ -250,7 +237,7 @@
                             </li>
                         </ul>
                 </ul>
-            <h2 id="ceng">Civil Engineering</h2>
+            <h3 id="ceng">Civil Engineering</h3>
             <ul>
                     <li class="projectTitle">Highway Interchange Design</li>
                         <ul>
@@ -376,8 +363,7 @@
                             </li>
                         </ul>
             </ul>
-            </body>
-            <h2 id="coen">Computer Science and Engineering</h2>
+            <h3 id="coen">Computer Science and Engineering</h3>
             <ul>
                 <li class="projectTitle">Mobile Sea</li>
                     <ul>
@@ -504,7 +490,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="elen">Electrical Engineering</h2>
+            <h3 id="elen">Electrical Engineering</h3>
             <ul>
                 <li class="projectTitle">Body Wearable Direction Finding Antenna Arrays</li>
                     <ul>
@@ -624,7 +610,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="mech">Mechanical Engineering</h2>
+            <h3 id="mech">Mechanical Engineering</h3>
             <ul>
                 <li class="projectTitle">Design of a Low-Profile Solar Tracker with Hybridized Control</li>
                     <ul>
@@ -747,7 +733,7 @@
                             </li>
                         </ul>
             </ul>
-            <h2 id="idsc">Interdisciplinary Session</h2>
+            <h3 id="idsc">Interdisciplinary Session</h3>
             <ul>
                 <li class="projectTitle">Formula Hybrid - Electrical</li>
                     <ul>
@@ -872,5 +858,9 @@
                             </li>
                         </ul>
             </ul>
-    </body>
+  </div>
+      <?php include "../parts/sidenav-arvhive.php"?>
+    </main>
+    <?php include "../parts/footer.php" ?>
+  </body>
 </html>
