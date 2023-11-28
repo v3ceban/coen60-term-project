@@ -8,7 +8,6 @@
 * */
 
 .form {
-  width: 80%;
   margin: 50px auto 175px auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -25,20 +24,6 @@
   grid-template-columns: minmax(1fr, auto) auto;
   grid-template-rows: auto auto;
   gap: 20px;
-}
-
-.form h2 {
-  font-size: 2em;
-  margin-bottom: 25px;
-}
-
-.form p {
-  margin-bottom: 15px;
-}
-
-.form h3 {
-  font-size: 1.5em;
-  margin-bottom: 25px;
 }
 
 .form .info label,
