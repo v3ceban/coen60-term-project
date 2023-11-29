@@ -14,13 +14,13 @@
 
 .imgTxt{
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #f4f2f0;
-  font-size: 60px;
-  text-align: center;
-  white-space: nowrap;
+  padding: 10px;
+  top: 170px;
+  left: 170px;
+  font-size: 60pt;
+  color: maroon;
+  font-family: impact;
+  text-shadow: 2px 2px #FFFFFF;
   z-index: 1;
 }
 
