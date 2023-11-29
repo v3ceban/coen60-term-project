@@ -28,7 +28,7 @@
   <div class="intro">
 
     <p class="para1">Every senior in the School of Engineering will team up and create a year-long capstone project to showcase their learning by solving real-life problems.</p>
-
+    <br>
     <p>However, coming up with ideas and forming a team might be challenging. This website will allow you to get inspiration from previous designs and connect with your peers.</p>
 
   </div>

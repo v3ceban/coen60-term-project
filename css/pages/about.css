@@ -1,89 +1,77 @@
-body{
-	display: flex;
-	flex-direction: column;
-	margin: auto;
-}
-.head{
-	position: sticky;
-	top: 0;
-	background-color: white;
-	border-bottom: 1px solid black;
-	direction: rtl;
-	padding: 10px;
-}
-.part{
-	direction: rtl;
-	font: 12pt;
-	text-decoration-color: grey;
-	padding: 40px;
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
-
-.content{
-	height: 1300px;
-}
-#jieShao{
-	padding-left: 50px;
-	font-size: 14pt;
-	color: maroon;
-	font-weight: bold;
-	font-family:Goudy Bookletter 1911, sans-serif;
-}
-#team{
-	font-family:Goudy Bookletter 1911, sans-serif;
-	font-weight: bold;
-	padding-left: 50px;
-}
-.navigation{
-	background-color: #546575;
-	padding: 9px;
+.about .part {
+  direction: rtl;
+  font: 12pt;
+  text-decoration-color: grey;
+  padding: 40px;
 }
 
-#introMember{
-	color: white;
-	padding-left: 60px;
-	display: inline-block;
-	justify-content: center;
-	text-align: center;
-	margin-left: 70px;
-	border-left: ;
+.about #jieShao {
+  padding-left: 50px;
+  font-size: 14pt;
+  color: maroon;
+  font-weight: bold;
+  font-family:
+    Goudy Bookletter 1911,
+    sans-serif;
+}
+.about #team {
+  font-family:
+    Goudy Bookletter 1911,
+    sans-serif;
+  font-weight: bold;
+  padding-left: 50px;
+}
+.about .navigation {
+  background-color: #546575;
+  padding: 9px;
 }
 
-.footer{
-	margin-top: auto;
-	background-color: maroon;
-	padding: 20px;
-}
-.foo{
-	margin-top: auto;
-	display: flex;
-	color: white;
-	justify-content: center;
+.about #introMember {
+  color: white;
+  padding-left: 60px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-left: 70px;
 }
 
-img{
-	margin: 40px;
-	box-shadow: 3px 3px 4px grey;
+.about .foo {
+  margin-top: auto;
+  display: flex;
+  color: white;
+  justify-content: center;
 }
 
-.list li {
-  display: flex; 
+.about img {
+  margin: 40px;
+  box-shadow: 3px 3px 4px grey;
+}
+
+.about .list li {
+  display: flex;
   align-items: center;
-  list-style-type: none; 
+  list-style-type: none;
   margin-bottom: 20px;
- }
+}
 
-#Ellie{
-	display: inline-block;
+.about #Ellie {
+  display: inline-block;
 }
-#Mia{
-	display: inline-block;
+.about #Mia {
+  display: inline-block;
 }
-#Holly{
-	display: inline-block;
+.about #Holly {
+  display: inline-block;
 }
-#Vlad{
-	display: inline-block;
+.about #Vlad {
+  display: inline-block;
 }
-a:visited{color: grey;} a:hover{color: maroon;} a:unvisited{color: grey;
+.about a:hover {
+  color: maroon;
 }
