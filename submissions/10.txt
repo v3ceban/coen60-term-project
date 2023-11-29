@@ -1,0 +1,8 @@
+Name: V c
+Email: 123@scu.edu
+Topic: sadasdasd
+DataAnalysis: on
+Design: on
+Prototyping: on
+Major: BIO
+Submit: Submit

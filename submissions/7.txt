@@ -1,0 +1,8 @@
+Name: Vlad Ceban
+Email: 223@scu.edu
+Topic: 123
+Design: on
+Frontend: on
+Research: on
+Major: CIV
+Submit: Submit
