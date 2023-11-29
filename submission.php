@@ -47,7 +47,7 @@
         echo "Sorry, we weren't able to find a match for you. Please try again later!";
     } else {
         //Choses up to 3 random connections to print out
-        $randomFiles = array_rand($matchingFiles, min(3, count($matchingFiles)));
+        $randomFiles = array_rand($matchingFiles, min(5, count($matchingFiles)));
         $i = 1;
         if (!is_array($randomFiles)) {
             $randomFiles = array($randomFiles);
