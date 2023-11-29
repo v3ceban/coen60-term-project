@@ -16,7 +16,6 @@
           <span id="introMember"><a href="#Mia">Mia</a></span>
           <span id="introMember"><a href="#Vlad">Vlad</a></span>
         </div>
-
         <!--menber section-->
         <ul class="list">
           <li>
@@ -36,8 +35,6 @@
               personal growth.
             </p>
           </li>
-
-<<<<<<< HEAD
           <li>
             <img src="" alt="Holly's photo" width="180" />
             <p id="Holly">
