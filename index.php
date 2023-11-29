@@ -23,9 +23,7 @@
         </p>
         <br />
         <p>
-          However, coming up with ideas and forming a team might be challenging.
-          This website will allow you to get inspiration from previous designs
-          and connect with your peers.
+          Coming up with ideas and forming a team might be challenging. This website will allow you to get inspiration from previous designs by viewing the archives. You may also connect with peers by sharing your design ideas and contact information.
         </p>
       </div>
       <div class="buttons">
