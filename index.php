@@ -5,7 +5,7 @@
 <head>
 
   <?php include "./parts/head-content.php" ?>
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="home_test.css">
 
   <title>Home</title>
 
@@ -18,7 +18,7 @@
 
   <div class="image-container">
 
-    <img src="background1.jpg" alt="Background Image">
+    <img src="background1_c.jpg" alt="Background Image">
 
     <h1 class="image-text"> Explore Ideas & Find Your Teammates </h1>
 
