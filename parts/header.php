@@ -6,6 +6,7 @@
       <li><a href="../about.php">About</a></li>
       <li><a href="../form.php">Form</a></li>
       <li><a href="../archive.php">Archive</a></li>
+      <li><a href="../archive.php">Find Teammates</a></li>
     </ul>
   </nav>
 </header>

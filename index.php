@@ -5,7 +5,6 @@
 <head>
 
   <?php include "./parts/head-content.php" ?>
-  <link rel="stylesheet" href="home.css">
 
   <title>Home</title>
 

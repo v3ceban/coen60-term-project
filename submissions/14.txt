@@ -1,0 +1,7 @@
+Name: First Last
+Email: 123@scu.edu
+Topic: 123
+Frontend: on
+Research: on
+Major: ECEN
+Submit: Submit
