@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Current Topics</title>
-	<link rel="stylesheet" type="text/css" href="collection.css">
+	<link rel="stylesheet" type="text/css" href="coen60-term-project/css/pages/currentTopics.css">
 	<style>
 		body{
 		background-color: #f4f2f0;
@@ -20,7 +20,7 @@
 	</div>
 
 	<!--submission-->
-	
+
 
 </body>
 </html>
