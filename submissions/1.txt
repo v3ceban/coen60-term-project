@@ -1,0 +1,8 @@
+Name: asd asd
+Email: asd@scu.edu
+Topic: 213
+Electronics: on
+MaterialScience: on
+Simulation: on
+Major: BIO
+Submit: Submit
