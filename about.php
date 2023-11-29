@@ -45,8 +45,9 @@
                 <br />
                 She created the home and the "Find Teammate" section of this website.
               </b>
+              <br>
               <!--holly's self describtion-->
-              Holly is originally from Taiwan and has studied in the United States for a while. She likes to sleep and play video games.
+              Holly is originally from Taiwan and has studied in the United States for a while. She likes to <br>sleep and play video games.
             </p>
           </li>
 

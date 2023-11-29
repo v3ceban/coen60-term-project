@@ -13,13 +13,12 @@
 </head>
 <body>
 	<!--header-->
-	<?php include "./parts/header.php" ?>
+    <?php include "./parts/header.php" ?>
 
 	<!--submission-->
 	<div class="content">
-		<br>
-		<br>
-		<br>
+		Current Ideas
+
 
 	</div>
 
