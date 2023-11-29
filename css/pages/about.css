@@ -4,29 +4,6 @@
   margin: auto;
 }
 
-.about .part {
-  direction: rtl;
-  font: 12pt;
-  text-decoration-color: grey;
-  padding: 40px;
-}
-
-.about #jieShao {
-  padding-left: 50px;
-  font-size: 14pt;
-  color: maroon;
-  font-weight: bold;
-  font-family:
-    Goudy Bookletter 1911,
-    sans-serif;
-}
-.about #team {
-  font-family:
-    Goudy Bookletter 1911,
-    sans-serif;
-  font-weight: bold;
-  padding-left: 50px;
-}
 .about .navigation {
   background-color: #546575;
   padding: 9px;
@@ -60,18 +37,6 @@
   margin-bottom: 20px;
 }
 
-.about #Ellie {
-  display: inline-block;
-}
-.about #Mia {
-  display: inline-block;
-}
-.about #Holly {
-  display: inline-block;
-}
-.about #Vlad {
-  display: inline-block;
-}
 .about a:hover {
   color: maroon;
 }
