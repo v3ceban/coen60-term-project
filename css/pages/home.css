@@ -1,8 +1,51 @@
-/*
-* This stylesheet contains the main conents of the home page
-* Every rule here here should start with .home
-* example rule targeting div in home's main
-* .home div {
-*   display: none;
-* }
-* */
+.image-container {
+  	position: relative;
+}
+
+.image-container img {
+  	display: block;
+  	width: 100%;
+  	height: auto;
+  	margin: 0;
+}
+
+.image-text {
+  	position: absolute;
+  	top: 30%; 
+  	left: 50%; 
+  	transform: translate(-50%, -50%);
+  	color: #cf0841;
+  	font-size: 60px;
+  	text-align: center;
+  	white-space: nowrap;
+  	z-index: 1;
+}
+
+.intro {
+	position: relative; 
+  	width: 700px;
+  	text-align: center;
+  	margin: 0 auto; 
+  	font-size: 25px;
+}
+
+.para1 {
+	margin-top: 100px;
+}
+
+.buttons {
+	text-align: center;
+  	margin-top: 90px;
+}
+
+.archive,
+.form,
+.about {
+  	font-size: 25px;
+  	padding: 5px;
+  	margin: 30px;
+  	border-width: 10px;
+  	border-color: #b30738;
+  	background-color: #b30738;
+  	color: white;
+}
