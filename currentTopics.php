@@ -4,26 +4,20 @@
 	<title>Find Teammates</title>
 	<?php include "./parts/head-content.php"?>
 	<link rel="stylesheet" type="text/css" href="css/pages/currentTopics.css">
-
-	<style>
-		body{
-		background-color: #f4f2f0;
-	}
-	</style>
 </head>
 <body>
 	<!--header-->
-    <?php include "./parts/header.php" ?>
+	<?php include "./parts/header.php" ?>
 
 	<!--submission-->
-	<div class="content">
-		Current Ideas
-
-
-	</div>
+	<main class="people">
+		<br>
+		<br>
+		<br>
+	</main>
 
 	<!--footer-->
-    <?php include "./parts/footer.php" ?>
+  <?php include "./parts/footer.php" ?>
 
 
 
