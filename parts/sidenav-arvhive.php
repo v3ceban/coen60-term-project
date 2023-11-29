@@ -1,5 +1,6 @@
 <aside class="sidenav">
   <nav>
+    <h3 style="padding-left: 6px;">Archives</h3>
     <a href="../archives/archive22.php">2022</a>
     <a href="../archives/archive21.php">2021</a>
     <a href="../archives/archive20.php">2020</a>

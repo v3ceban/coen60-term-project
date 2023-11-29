@@ -9,23 +9,7 @@
     <?php include "./parts/header.php" ?>
     <main class="archive">
     <div class="content">
-        <!--Sidebar navigation-->
-            <div class="sidenav">
-                <h3 style="padding-left: 6px;">Archives</h3>
-                <a href="archive22.html">2022</a>
-                <a href="archive21.html">2021</a>
-                <a href="archive20.html">2020</a>
-                <a href="archive19.html">2019</a>
-                <a href="archive18.html">2018</a>
-                <a href="archive17.html">2017</a>
-                <a href="archive16.html">2016</a>
-                <a href="archive15.html">2015</a>
-                <a href="archive14.html">2014</a>
-                <a href="archive13.html">2013</a>
-                <a href="archive12.html">2012</a>
-            </div>
-
-        <h1>Explore Past Senior Design Projects</h1>
+        <h2>Explore Past Senior Design Projects</h2>
         <p class="main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -52,7 +36,7 @@
             et voluptates repudiandae sint et molestiae non recusandae. 
             Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias 
             consequatur aut perferendis doloribus asperiores repellat.</p>
-        <h1 class="main" style="text-align: center;background-color: #b0aa7e; padding: 5px;"><a href="archive23.html">2023 Projects</a></h1>
+        <h2 class="main" style="text-align: center;background-color: #b0aa7e; padding: 5px;"><a href="archive23.html">2023 Projects</a></h2>
         <div class="current">
             <p>
             <h3>View highlights from the 2023 Senior Design Conference.</h3>

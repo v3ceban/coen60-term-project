@@ -7,7 +7,7 @@
   </head>
 
   <body class="main">
-    <?php include "../parts/header.php" ?>
+    <?php include "../parts/header-archive.php" ?>
     <main class="archive">
       <div class="content">
         <h2>42nd Annual Senior Design Conference</h2>
