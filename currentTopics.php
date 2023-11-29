@@ -13,7 +13,7 @@
 	<!--header-->
 	<div class="head">
 		<span class="part"><a href="coen60-term-project/index.php">Home</a></span>
-		<span class="part"><a href="aboutPage.php">About</a></span>
+		<span class="part"><a href="coen60-term-project/about.php">About</a></span>
 		<span class="part"><a href="coen60-term-project/form.php">Form</a></span>
 		<span class="part"><a href="coen60-term-project/archive.php">Archive</a></span>
 		<span class="part"><a href="collection.php">Current Topics</a></span>
