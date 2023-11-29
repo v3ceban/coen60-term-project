@@ -35,11 +35,12 @@
 
 .buttons {
 	text-align: center;
+  	margin-top: 90px;
 }
 
-.archive,
-.form,
-.about {
+.ideas,
+.teamates,
+.information {
   	font-size: 25px;
   	padding: 5px;
   	margin: 30px;
@@ -48,3 +49,12 @@
   	background-color: #b30738;
   	color: white;
 }
+
+.archive {
+	width: 200px;
+}
+
+
+
+
+

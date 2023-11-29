@@ -36,11 +36,11 @@
 
   <div class="buttons">
 
-    <a href=""><button type="button" class="archive">See Archives</button></a>
+    <a href="./archive.php"><button type="button" class="ideas">See Archives</button></a>
 
-    <a href=""><button type="button" class="form">Find Teammates</button></a>
+    <a href="./form.php"><button type="button" class="teamates">Find Teammates</button></a>
 
-    <a href=""><button type="button" class="about">About Us</button></a>
+    <a href="./about.php"><button type="button" class="information">About Us</button></a>
 
   </div>
 
