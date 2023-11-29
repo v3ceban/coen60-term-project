@@ -14,7 +14,7 @@
   <!--header-->
   <div class="head">
     <span class="part"><a href="coen60-term-project/index.php">Home</a></span>
-    <span class="part"><a href="aboutPage.php">About</a></span>
+    <span class="part"><a href="coen60-term-project/about.php">About</a></span>
     <span class="part"><a href="coen60-term-project/form.php">Form</a></span>
     <span class="part"><a href="coen60-term-project/archive.php">Archive</a></span>
     <span class="part"><a href="collection.php">Current Topics</a></span>
@@ -37,7 +37,7 @@
     <ul class="list">
       <li>
 
-        <img src="img/Ellie.jpg" alt="Ellie's photo" width="180">
+        <img src="coen60-term-project/photos for about/Ellie.jpg" alt="Ellie's photo" width="180">
         <p id="Ellie">
       <b>Ellie Hong is a Freshman WDE major.
         <br>
@@ -70,7 +70,7 @@
 
 
       <li>
-        <img src="img/Mia.jpg" width="180" alt="Mia's photo">
+        <img src="coen60-term-project/photos for about/Mia.jpg" width="180" alt="Mia's photo">
       <p id="Mia">
       <b>Mia Lassiter is a junior WDE major.
         <br>
