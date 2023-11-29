@@ -4,25 +4,24 @@
   margin: auto;
 }
 
-.about .navigation {
-  background-color: #546575;
-  padding: 9px;
+.about .headImg {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin: 0;
 }
 
-.about #introMember {
-  color: grey;
-  padding-left: 60px;
-  display: inline-block;
-  justify-content: center;
+.imgTxt{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f4f2f0;
+  font-size: 60px;
   text-align: center;
-  margin-left: 70px;
-}
-
-.about .foo {
-  margin-top: auto;
-  display: flex;
-  color: white;
-  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
 }
 
 .about img {
@@ -37,6 +36,4 @@
   margin-bottom: 20px;
 }
 
-a:visited{color: grey;} a:hover{color: maroon;} a:unvisited{color: grey;
-}
 

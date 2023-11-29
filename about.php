@@ -9,13 +9,11 @@
     <?php include "./parts/header.php" ?>
     <main class="about">
       <div class="content">
-        <h2 id="team">Team Member Introduction</h2>
-        <div class="navigation">
-          <span id="introMember"><a href="#Ellie">Ellie</a></span>
-          <span id="introMember"><a href="#Holly">Holly</a></span>
-          <span id="introMember"><a href="#Mia">Mia</a></span>
-          <span id="introMember"><a href="#Vlad">Vlad</a></span>
+        <h2 class="imgTxt">Team Member Introduction</h2>
+        <div>
+          <img src="photos/aboutPic.jpg" alt="head illustration" class="headImg">
         </div>
+
         <!--menber section-->
         <ul class="list">
           <li>
