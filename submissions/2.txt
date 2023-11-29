@@ -1,10 +1,9 @@
-Name: Not Vladimir
-Email: vc3ban@scu.edu
-Topic: Robot Dogs
-CAD: on
+Name: Queenie Zhai
+Email: qzhai@scu.edu
+Topic: AI Model create
+DataAnalysis: on
 Design: on
 Frontend: on
-MaterialScience: on
-Research: on
-Major: WDEN
+Prototyping: on
+Major: ECEN
 Submit: Submit

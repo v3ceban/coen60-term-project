@@ -33,7 +33,7 @@
           others can contact you!
         </p>
       </section>
-      <form action="./currentTopics.php" method="post" novalidate onsubmit="return validateForm()">
+      <form action="./submission.php" method="post" novalidate onsubmit="return validateForm()">
         <section class="info">
           <h3>Your Information</h3>
           <label for="Name">First and Last Name</label>

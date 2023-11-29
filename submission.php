@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <?php include "./parts/head-content.php"?>
+<link rel="stylesheet" type="text/css" href="./css/pages/currentTopics.css">
     <title>Form</title>
   </head>
   <body>
     <?php include "./parts/header.php" ?>
-    <main class="submission">
+    <main class="container currentTopics">
       <h2>Your form was submitted</h2>
     <?php
     $files = scandir("./submissions/");
@@ -24,19 +25,24 @@
     <?php
     //Looks throught all files and adds the ones with matching $Major
     //Also adds the ones with similar topics
-    //Doesn't add the ones with matching $Name
     $matchingFiles = [];
     $topicWords = explode(" ", $Topic);
     foreach ($files as $item) {
         if (is_file("./submissions/" . $item)) {
             $content = file_get_contents("./submissions/" . $item);
+            //Doesn't add the ones with matching $Name
             if (strpos($content, $Name) === false) {
                 if (strpos($content, $Major) !== false) {
-                    array_push($matchingFiles, $item);
+                    //Doesn't add the same person twice
+                    if (!in_array($item, $matchingFiles)) {
+                        array_push($matchingFiles, $item);
+                    }
                 }
                 foreach ($topicWords as $word) {
                     if (stripos($content, $word) !== false) {
-                        array_push($matchingFiles, $item);
+                        if (!in_array($item, $matchingFiles)) {
+                            array_push($matchingFiles, $item);
+                        }
                     }
                 }
             }
@@ -55,21 +61,24 @@
         foreach ($randomFiles as $index) {
             $content = file_get_contents("./submissions/" . $matchingFiles[$index]);
             $lines = explode("\n", $content);
-            echo("<h3>Connection #$i</h3>\n<ul>\n");
+            $flag = 0;
+            echo("<h3>Connection #$i</h3>\n<ul class='submission'>\n");
             foreach ($lines as $line) {
-                if (strpos($line, "Name:") === 0 ||
-                    strpos($line, "Email:") === 0 ||
-                    strpos($line, "Topic:") === 0) {
-                    echo("<li>$line</li>\n");
+                if (strpos($line, 'Submit') === false) {
+                    if (strpos($line, ': on') !== false) {
+                        if ($flag === 0) {
+                            echo"<li class='skillTitle'>Skills:</li>\n";
+                            $flag = 1;
+                        }
+                        echo "<li class='skill'>" . str_replace(": on", "", $line) . "</li>\n";
+                    } else {
+                        $words = explode(" ", $line);
+                        $firstWord = $words[0];
+                        echo "<li><b>$firstWord</b> " . implode(" ", array_slice($words, 1)) . "</li>";
+                    }
                 }
             }
-            echo"<li><h4>Skills:</h4></li>\n<ul>\n";
-            foreach ($lines as $line) {
-                if (strpos($line, ': on') !== false) {
-                    echo "<li>".str_replace(": on", "", $line)."</li>\n";
-                }
-            }
-            echo("</ul>\n</ul>\n");
+            echo("</ul>\n");
             $i++;
         }
     }

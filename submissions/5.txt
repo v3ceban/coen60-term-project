@@ -1,0 +1,9 @@
+Name: NotVladimir Ceban
+Email: notvceban@scu.edu
+Topic: Robot Cats
+Backend: on
+Design: on
+Frontend: on
+Research: on
+Major: WDEN
+Submit: Submit

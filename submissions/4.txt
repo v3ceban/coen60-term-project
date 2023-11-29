@@ -1,0 +1,11 @@
+Name: Vladimir Ceban
+Email: vceban@scu.edu
+Topic: Robot Dogs
+DataAnalysis: on
+Design: on
+Frontend: on
+Prototyping: on
+Research: on
+TWriting: on
+Major: WDEN
+Submit: Submit

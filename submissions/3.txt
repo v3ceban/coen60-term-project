@@ -1,10 +1,9 @@
-Name: Jack Black
-Email: jack@scu.edu
-Topic: Genetically modified Cats
+Name: Sarah White
+Email: swite55@scu.edu
+Topic: Automated translation glasses, simultenious subtitles
+Backend: on
 DataAnalysis: on
-Design: on
-Research: on
+Electronics: on
 Robotics: on
-TWriting: on
-Major: BIO
+Major: ECEN
 Submit: Submit
