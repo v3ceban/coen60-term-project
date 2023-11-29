@@ -1,8 +1,10 @@
-Name: Vlad Ceban
-Email: 223@scu.edu
-Topic: 123
+Name: Jack Black
+Email: jack@scu.edu
+Topic: Genetically modified Cats
+DataAnalysis: on
 Design: on
-Frontend: on
 Research: on
-Major: CIV
+Robotics: on
+TWriting: on
+Major: BIO
 Submit: Submit

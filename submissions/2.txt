@@ -1,8 +1,10 @@
-Name: asd asd
-Email: asd@scu.edu
-Topic: 213
-Electronics: on
+Name: Not Vladimir
+Email: vc3ban@scu.edu
+Topic: Robot Dogs
+CAD: on
+Design: on
+Frontend: on
 MaterialScience: on
-Simulation: on
-Major: BIO
+Research: on
+Major: WDEN
 Submit: Submit

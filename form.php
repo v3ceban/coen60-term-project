@@ -28,6 +28,10 @@
           So don't delay, fill out the form today and start connecting with
           others!
         </p>
+        <p>
+          Submission of this form will also add you to our People page, so
+          others can contact you!
+        </p>
       </section>
       <form action="./submission.php" method="post" novalidate onsubmit="return validateForm()">
         <section class="info">

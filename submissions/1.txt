@@ -1,8 +1,10 @@
-Name: asd asd
-Email: asd@scu.edu
-Topic: 213
-Electronics: on
-MaterialScience: on
-Simulation: on
-Major: BIO
+Name: Vladimir Ceban
+Email: vceban@scu.edu
+Topic: Robot Cats
+Backend: on
+Design: on
+Frontend: on
+Prototyping: on
+Research: on
+Major: WDEN
 Submit: Submit
