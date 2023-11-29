@@ -25,7 +25,7 @@
                 Ellie Hong is a Freshman WDE major.
                 <br />
                 <br />
-                She created the About section of this website.
+                She created the About and the "Find Teammate" section of this website.
               </b>
               <br />
               Ellie, a Chinese freshman at Santa Clara University, has joined
@@ -37,15 +37,16 @@
           </li>
 
           <li>
-            <img src="" alt="Holly's photo" width="180" />
+            <img src="photos/Holly.jpg" alt="Holly's photo" width="180" />
             <p id="Holly">
               <b>
                 Holly Duan is a freshman WDE major.
                 <br />
                 <br />
-                She created the home section of this website.
+                She created the home and the "Find Teammate" section of this website.
               </b>
               <!--holly's self describtion-->
+              Holly is originally from Taiwan and has studied in the United States for a while. She likes to sleep and play video games.
             </p>
           </li>
 
@@ -68,7 +69,7 @@
           </li>
 
           <li>
-            <img src="" alt="Vlad's photo" width="180" />
+            <img src="photos/vlad.jpg" alt="Vlad's photo" width="180" />
             <p id="Vlad">
               <b>
                 Vladimir Ceban is a junior WDE major.
@@ -77,6 +78,7 @@
                 he created the form section of this website.
               </b>
               <br />
+              Vladimir Ceban is a transfer Web Design major. He was born in Moldova, speaks Russian, and<br> works part time as a Social Media Intern with the Exclusive Excellence Department at SCU. He<br> worked on form page.
               <!--Vlad's self describtion-->
             </p>
           </li>

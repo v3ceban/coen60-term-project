@@ -24,12 +24,7 @@
 	</div>
 
 	<!--footer-->
-  <div class="footer">
-    <span class="foo">
-      © 2023 Santa Clara University</span>
-    <span class="foo">Coen 60 Team project by Ellie, Holly, Mia, Vlad
-    </span>
-  </div>
+    <?php include "./parts/footer.php" ?>
 
 
 
