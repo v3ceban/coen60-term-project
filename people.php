@@ -14,7 +14,7 @@
 		<h2>Current Student Ideas</h2>
     <?php
       // Display submissions
-$files = scandir("./submissions/");
+    $files = scandir("./submissions/");
 if (count($files) !== 0) {
     echo "<div class='history'>\n";
     foreach ($files as $file) {
@@ -44,13 +44,6 @@ if (count($files) !== 0) {
 } else {
     echo "No submissions found.\n";
 }
-#echo "<p><strong>Name:</strong> " . htmlspecialchars($submission['Name']) . "</p>";
-#echo "<p><strong>Email:</strong> " . htmlspecialchars($submission['Email']) . "</p>";
-#echo "<p><strong>Topic:</strong> " . htmlspecialchars($submission['Topic']) . "</p>";
-#echo "<p><strong>Skills:</strong> " . implode(", ", array_keys($submission['Skills'])) . "</p>";
-#echo "<p><strong>Major:</strong> " . htmlspecialchars($submission['Major']) . "</p>";
-#echo "</div>";
-
 ?>
 	</main>
 
