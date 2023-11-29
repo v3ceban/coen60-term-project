@@ -9,8 +9,9 @@
     <?php include "./parts/header.php" ?>
     <main class="about">
       <div class="content">
-        <h2 class="imgTxt">Team Member Introduction</h2>
+        
         <div>
+          <h2 class="imgTxt">Team Member Introduction</h2>
           <img src="photos/aboutPic.jpg" alt="head illustration" class="headImg">
         </div>
 
