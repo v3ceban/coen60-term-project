@@ -15,11 +15,16 @@
   box-sizing: border-box;
 }
 
+b {
+  font-weight: bold;
+}
+
 body {
   color: #212529;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  background-color: #f4f2f0;
 }
 
 h1,

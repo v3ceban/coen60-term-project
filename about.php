@@ -19,14 +19,14 @@
         <!--menber section-->
         <ul class="list">
           <li>
-            <img src="img/Ellie.jpg" alt="Ellie's photo" width="180" />
+            <img src="photos/Ellie.jpg" alt="Ellie's photo" width="180" />
             <p id="Ellie">
-              <b
-                >Ellie Hong is a Freshman WDE major.
+              <b>
+                Ellie Hong is a Freshman WDE major.
                 <br />
                 <br />
-                She created the About section of this website.</b
-              >
+                She created the About section of this website.
+              </b>
               <br />
               Ellie, a Chinese freshman at Santa Clara University, has joined
               the CSSA club and is <br />exploring more campus activities.
@@ -35,41 +35,29 @@
               personal growth.
             </p>
           </li>
+
           <li>
             <img src="" alt="Holly's photo" width="180" />
             <p id="Holly">
-              <b
-                >Holly Duan is a freshman WDE major.
+              <b>
+                Holly Duan is a freshman WDE major.
                 <br />
                 <br />
-                She created the home section of this website.</b
-              >
-              <br />
-=======
-        <img src="coen60-term-project/photos for about/Ellie.jpg" alt="Ellie's photo" width="180">
-        <p id="Ellie">
-      <b>Ellie Hong is a Freshman WDE major.
-        <br>
-        <br>
-      She created the About section of this website.</b> 
-      <br>
-      Ellie, a Chinese freshman at Santa Clara University, has joined the CSSA club and is <br>exploring more campus activities. Aspiring to be a web designer, she's keen on finding <br>clubs and opportunities that align with her professional interests and personal growth.</p>
-      </li>
->>>>>>> 0c042f69496a497b36d2ce0fe9bec374eed9eaff
-
+                She created the home section of this website.
+              </b>
               <!--holly's self describtion-->
             </p>
           </li>
 
           <li>
-            <img src="img/Mia.jpg" width="180" alt="Mia's photo" />
+            <img src="photos/Mia.jpg" width="180" alt="Mia's photo" />
             <p id="Mia">
-              <b
-                >Mia Lassiter is a junior WDE major.
+              <b>
+                Mia Lassiter is a junior WDE major.
                 <br />
                 <br />
-                She created the Archives section of this website.</b
-              >
+                She created the Archives section of this website.
+              </b>
               <br />
               On campus, Mia works as a CF (resident assistant) in Casa Italiana
               and a web designer for
@@ -79,16 +67,15 @@
             </p>
           </li>
 
-<<<<<<< HEAD
           <li>
             <img src="" alt="Vlad's photo" width="180" />
             <p id="Vlad">
-              <b
-                >Ceb Vlad is a junior WDE major.
+              <b>
+                Vladimir Ceban is a junior WDE major.
                 <br />
                 <br />
-                he created the form section of this website.</b
-              >
+                he created the form section of this website.
+              </b>
               <br />
               <!--Vlad's self describtion-->
             </p>
@@ -100,69 +87,3 @@
     <?php include "./parts/footer.php" ?>
   </body>
 </html>
-=======
-
-      <li>
-
-        <img src="" alt="Holly's photo" width="180">
-        <p id="Holly">
-      <b>Holly Duan is a freshman WDE major.
-        <br>
-        <br>
-      She created the home section of this website.</b> 
-      <br>
-
-      <!--holly's self describtion-->
-      
-      </p>
-
-
-      </li>
-
-
-
-      <li>
-        <img src="coen60-term-project/photos for about/Mia.jpg" width="180" alt="Mia's photo">
-      <p id="Mia">
-      <b>Mia Lassiter is a junior WDE major.
-        <br>
-        <br>
-      She created the Archives section of this website.</b> 
-      <br>
-      On campus, Mia works as a CF (resident assistant) in Casa Italiana and a web designer for
-      <br>
-      SCU’s Faculty Development program and the Markkula Center for Applied Ethics. </p>
-      </li>
-
-
-      <li>
-        <img src="" alt="Vlad's photo" width="180">
-      <p id="Vlad">
-      <b>Ceb Vlad is a junior WDE major.
-        <br>
-        <br>
-      he created the form section of this website.</b> 
-      <br>
-      
-      <!--Vlad's self describtion-->
-
-      </p>
-      </li>
-
-
-    </ul>
-  </div>
-
-  <!--footer-->
-  <div class="footer">
-    <span class="foo">
-      © 2023 Santa Clara University</span>
-    <span class="foo">Coen 60 Team project by Ellie, Holly, Mia, Vlad
-    </span>
-  </div>
-
-
-
-</body>
-</html>
->>>>>>> 0c042f69496a497b36d2ce0fe9bec374eed9eaff
