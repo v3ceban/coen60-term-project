@@ -1,0 +1,21 @@
+body{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.head{
+	position: sticky;
+	top: 0;
+	background-color: white;
+	border-bottom: 1px solid black;
+	direction: rtl;
+	padding: 10px;
+}
+.part{
+	direction: rtl;
+	font: 12pt;
+	text-decoration-color: grey;
+	padding: 40px;
+}
+a:visited{color: grey;} a:hover{color: maroon;} a:unvisited{color: grey;
+}
