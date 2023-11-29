@@ -21,7 +21,7 @@
           year-long capstone project to showcase their learning by solving
           real-life problems.
         </p>
-        <br />
+        <br/>
         <p>
           Coming up with ideas and forming a team might be challenging. This website will allow you to get inspiration from previous designs by viewing the archives. You may also connect with peers by sharing your design ideas and contact information.
         </p>
