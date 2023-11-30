@@ -18,7 +18,7 @@
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
             deserunt mollit anim id est laborum.</p>
         <div class="jumpLinks"> 
-            <a href="bioe.php">Bioengineering</a> 
+            <a href="./archives/bioe.php">Bioengineering</a> 
             <a href="ceng.html">Civil Engineering</a> 
             <a href="coen.html">Computer Engineering</a> 
             <a href="elen.html">Electrical Engineering</a> 
@@ -36,7 +36,7 @@
             et voluptates repudiandae sint et molestiae non recusandae. 
             Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias 
             consequatur aut perferendis doloribus asperiores repellat.</p>
-        <h2 class="main" style="text-align: center;background-color: #b0aa7e; padding: 5px;"><a href="archive23.html">2023 Projects</a></h2>
+        <h2 class="main" style="text-align: center;background-color: #b0aa7e; padding: 5px;"><a href="./archives/archive23.html">2023 Projects</a></h2>
         <div class="current">
             <p>
             <h3>View highlights from the 2023 Senior Design Conference.</h3>
