@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Archives</title>
-        <link rel="stylesheet" href="archives.css">
+        <link rel="stylesheet" href="./css/pages/archive.css">
     </head>
     
     <body>

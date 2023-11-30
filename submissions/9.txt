@@ -1,0 +1,8 @@
+Name: Paul Washington
+Email: pwashington8@scu.edu
+Topic: Detecting the face on IG story and at people on the pictrue automatically.
+Backend: on
+DataAnalysis: on
+Design: on
+Major: WDEN
+Submit: Submit
