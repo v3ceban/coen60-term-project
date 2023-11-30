@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <?php include "./parts/head-content.php"?>
-    <link rel="stylesheet" href="./css/pages/about.css">
     <title>About Us</title>
   </head>
   <body>
@@ -10,7 +9,7 @@
     <main class="about">
       <div class="content">
         
-        <div>
+        <div class="img-container">
           <h2 class="imgTxt">Team Member Introduction</h2>
           <img src="photos/aboutPic.jpg" alt="head illustration" class="headImg">
         </div>
