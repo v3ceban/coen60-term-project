@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Archives</title>
-        <link rel="stylesheet" href="./css/pages/archive.css">
+    <?php include "../parts/head-content-archive.php"?>
+    <link rel="stylesheet" href="../css/pages/archive.css">
+    <script src="../js/archives.js" defer></script>
     </head>
     
     <body>
-        <h1 style="text-align: center;">Bioengineering Projects</h1>
+    <?php include "../parts/header-archive.php" ?>
+    <main class="archive">
+      <div class="content">
+
+        <h2 style="text-align: center;">Bioengineering Projects</h2>
         <img class="center" src="Photos/bioe.jpg" alt="Female scientist pipetting colored chemicals into a tube"
         height="300px">
         <!--Jump Links-->
@@ -804,5 +809,9 @@
                     </li>
                 </ul>
         </ul>
+      </div>
+      <?php include "../parts/sidenav-arvhive.php"?>
+    </main>
+    <?php include "../parts/footer.php" ?>
     </body>
 </html>

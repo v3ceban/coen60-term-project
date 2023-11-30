@@ -11,9 +11,7 @@
     <?php include "../parts/header-archive.php" ?>
     <main class="archive">
       <div class="content">
-   
             <h2>51st Annual Senior Design Conference</h2>
-
             <div class="intro">
                 <a href="https://www.scu.edu/engineering/undergraduate/senior-design/archives/2021-virtual-senior-design/2021-senior-design-presentations-schedule/">
                     <img src="Photos/2021Banner.jpeg" class="bannerImg"

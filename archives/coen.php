@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Archives</title>
-        <link rel="stylesheet" href="archives.css">
+    <?php include "../parts/head-content-archive.php"?>
+    <link rel="stylesheet" href="../css/pages/archive.css">
+    <script src="../js/archives.js" defer></script>
     </head>
     
     <body>
-        <h1 style="text-align: center;">Civil Engineering Projects</h1>
-        <img class="center" src="Photos/ceng.jpg" alt="Viaduc de Millau Bridge during daytime"
+    <?php include "../parts/header-archive.php" ?>
+    <main class="archive">
+      <div class="content">
+        <h2 style="text-align: center;">Computer Science and Engineering Projects</h2>
+        <img class="center" src="Photos/coen.jpg" alt="Computer screens with code"
         height="300px">
         <!--Jump Links-->
         <h3 style="text-align: center;">Find Projects by Topic</h3>
         <div class="jumpLinks">
-            <a href="#bridges">Bridges</a>
-            <a href="#bldg">Buildings</a>
-            <a href="#roads">Highways and Roads</a>
-            <a href="#irr">Irrigation Systems</a>
-            <a href="#traffic">Traffic Patterns</a>
-            <a href="#ts">Transportation Systems</a>
-            <a href="#water">Water Supplies</a>
+            <a href="#ai">Artificial Intelligence</a>
+            <a href="#carc">Computer Architecture</a>
+            <a href="#hw">Hardware</a>
+            <a href="#hci">Human Computer Interaction</a>
+            <a href="#itech">Information Technology</a>
+            <a href="#ml">Machine Learning</a>
+            <a href="#web">Web Design & Web Applications</a>
         </div>
-        <h2 id="bridges">Bridges</h2>
+        <h2 id="ai">Artificial Intelligence</h2>
             <ul>
             <li class="projectTitle">Reverse Protein Engineering</li>
                 <ul>
@@ -132,7 +136,7 @@
                     </li>
                 </ul>
             </ul>
-        <h2 id="bldg">Buildings</h2>
+        <h2 id="carc">Computer Architecture</h2>
             <ul>
             <li class="projectTitle">Reverse Protein Engineering</li>
                 <ul>
@@ -244,7 +248,7 @@
                     </li>
                 </ul>
             </ul>
-        <h2 id="roads">Highways and Roads</h2>
+        <h2 id="hw">Hardware</h2>
         <ul>
             <li class="projectTitle">Reverse Protein Engineering</li>
                 <ul>
@@ -356,7 +360,7 @@
                     </li>
                 </ul>
         </ul>
-        <h2 id="irr">Irrigation Systems</h2>
+        <h2 id="hci">Human Computer Interaction</h2>
         <ul>
             <li class="projectTitle">Reverse Protein Engineering</li>
                 <ul>
@@ -468,7 +472,7 @@
                     </li>
                 </ul>
         </ul>
-        <h2 id="traffic">Traffic Patterns</h2>
+        <h2 id="itec">Information Technology</h2>
         <ul>
             <li class="projectTitle">Reverse Protein Engineering</li>
                 <ul>
@@ -580,7 +584,7 @@
                     </li>
                 </ul>
         </ul>
-        <h2 id="ts">Transportation Systems</h2>
+        <h2 id="ml">Machine Learning</h2>
         <ul>
             <li class="projectTitle">Reverse Protein Engineering</li>
                 <ul>
@@ -692,7 +696,7 @@
                     </li>
                 </ul>
         </ul>
-        <h2 id="water">Water Supplies</h2>
+        <h2 id="web">Web Design and Web Applications</h2>
         <ul>
             <li class="projectTitle">Reverse Protein Engineering</li>
                 <ul>
@@ -803,6 +807,9 @@
                         simulator for PlasmaBlade devices.
                     </li>
                 </ul>
-        </ul>
+            </div>
+      <?php include "../parts/sidenav-arvhive.php"?>
+    </main>
+    <?php include "../parts/footer.php" ?>
     </body>
 </html>

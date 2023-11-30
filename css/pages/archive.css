@@ -17,6 +17,11 @@
   max-width: 100%;
 }
 
+.archive img.center {
+  display: block;
+  margin: auto;
+}
+
 .archive ul ul {
   list-style: initial;
   padding-left: 20px;
