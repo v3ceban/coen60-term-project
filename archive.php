@@ -50,7 +50,7 @@
         <div class="current">
         <h3>Click the image below to access the 2023 Senior Design Gallery.</h3>
         <p><a title="2023 Senior Design Photo Gallery" href="https://scu.canto.com/v/2023SeniorDesignConference/s/MICRK?viewIndex=0&amp;gSortingForward" 
-            target="_blank" rel="noopener"><img src="Photos/2023Gallery.JPG" 
+            target="_blank" rel="noopener"><img src="./archives/Photos/2023Gallery.JPG" 
             alt="A group of seniors showcase their project in the SCDI courtyard. Title overlay reads 2023 Senior Design." 
             height="360"></a>
         </p>
