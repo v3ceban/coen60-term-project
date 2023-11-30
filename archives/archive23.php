@@ -1,9 +1,9 @@
-<html>
+<!doctype html>
 <html>
   <head>
     <?php include "../parts/head-content-archive.php"?>
     <link rel="stylesheet" href="../css/pages/archive.css" />
-    <title>Archive 2021</title>
+    <title>Archive 2022</title>
     <script src="../js/archives.js" defer></script>
   </head>
 
@@ -11,11 +11,12 @@
     <?php include "../parts/header-archive.php" ?>
     <main class="archive">
       <div class="content">
-            <h2>51st Annual Senior Design Conference</h2>
+            <h2>53nd Annual Senior Design Conference</h2>
+
             <div class="intro">
-                <a href="https://www.scu.edu/engineering/undergraduate/senior-design/archives/2021-virtual-senior-design/2021-senior-design-presentations-schedule/">
-                    <img src="Photos/2021Banner.jpeg" class="bannerImg"
-                    alt="Banner for the 2021 Senior Design Conference" 
+                <a href="https://www.flickr.com/photos/141280783@N04/albums/72177720299233712">
+                    <img src="Photos/2023Banner.jpeg" class="bannerImg"
+                    alt="Banner for the 2022 Senior Design Conference" 
                     height="300" style="margin-right: 15px;">
                 </a>
 
@@ -107,16 +108,17 @@
                         </div></td>
                     </tr>
                 </table>
-            <!--Jump Links-->
-            <div class="jumpLinks">
-                <a href="#bioe">Bioengineering Session</a>
-                <a href="#ceng">Civil Engineering Session</a>
-                <a href="#coen"> Computer Science and Engineering Session</a>
-                <a href="#mech">Mechanical Engineering Session</a>
-                <a href="#idsc">Interdisciplinary Session</a>
-            </div>
-
-            </div>
+                            </div>
+        <!--Jump Links-->
+        <div class="jumpLinks">
+            <a href="#bioe">Bioengineering</a>
+            <a href="#ceng">Civil Engineering</a>
+            <a href="#coen"> Computer Science and Engineering</a>
+            <a href="#elen"> Electrical Engineering</a>
+            <a href="#mech">Mechanical Engineering</a>
+            <a href="#idsc">Interdisciplinary Projects</a>
+        </div>
+            <br>
 
             <h3 id="bioe">BIOENGINEERING</h3>
                 <ul>
@@ -851,7 +853,7 @@
                             </li>
                         </ul>
             </ul>
-      </div>
+          </div>
       <?php include "../parts/sidenav-arvhive.php"?>
     </main>
     <?php include "../parts/footer.php" ?>

@@ -19,11 +19,11 @@
             deserunt mollit anim id est laborum.</p>
         <div class="jumpLinks"> 
             <a href="./archives/bioe.php">Bioengineering</a> 
-            <a href="ceng.html">Civil Engineering</a> 
-            <a href="coen.html">Computer Engineering</a> 
-            <a href="elen.html">Electrical Engineering</a> 
-            <a href="mech.html">Mechanical Engineering</a> 
-            <a href="idsc.html">Interdisciplinary</a> 
+            <a href="./archives/ceng.php">Civil Engineering</a> 
+            <a href="./archives/coen.php">Computer Engineering</a> 
+            <a href="./archives/elen.php">Electrical Engineering</a> 
+            <a href="./archives/mech.php">Mechanical Engineering</a> 
+            <a href="./archives/bioe.php">Interdisciplinary</a> 
         </div>
         <p class="main">At vero eos et accusamus et iusto odio dignissimos ducimus 
             qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
@@ -36,7 +36,7 @@
             et voluptates repudiandae sint et molestiae non recusandae. 
             Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias 
             consequatur aut perferendis doloribus asperiores repellat.</p>
-        <h2 class="main" style="text-align: center;background-color: #b0aa7e; padding: 5px;"><a href="./archives/archive23.html">2023 Projects</a></h2>
+        <h2 class="main" style="text-align: center;background-color: #b0aa7e; padding: 5px;"><a href="./archives/archive23.php">2023 Projects</a></h2>
         <div class="current">
             <p>
             <h3>View highlights from the 2023 Senior Design Conference.</h3>
