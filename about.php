@@ -27,10 +27,9 @@
                 She created the About and the "Find Teammate" section of this website.
               </b>
               <br />
-              Ellie, a Chinese freshman at Santa Clara University, has joined
-              the CSSA club and is <br />exploring more campus activities.
-              Aspiring to be a web designer, she's keen on finding <br />clubs
-              and opportunities that align with her professional interests and
+              Ellie has joined the CSSA club and is exploring more campus activities.
+              Aspiring to be a web <br />designer, she's keen on finding clubs
+              and opportunities that align with her professional interests <br />and
               personal growth.
             </p>
           </li>
@@ -72,13 +71,13 @@
             <img src="photos/vlad.jpg" alt="Vlad's photo" width="180" />
             <p id="Vlad">
               <b>
-                Vladimir Ceban is a junior WDE major.
+                Vladimir Ceban is a transfer Web Design major.
                 <br />
                 <br />
                 he created the form section of this website.
               </b>
               <br />
-              Vladimir Ceban is a transfer Web Design major. He was born in Moldova, speaks Russian, and<br> works part time as a Social Media Intern with the Exclusive Excellence Department at SCU. He<br> worked on form page.
+              He was born in Moldova, speaks Russian, and works part time as a Social Media Intern with <br>the Exclusive Excellence Department at SCU.
               <!--Vlad's self describtion-->
             </p>
           </li>
