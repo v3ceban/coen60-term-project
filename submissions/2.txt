@@ -1,9 +1,0 @@
-Name: Queenie Zhai
-Email: qzhai@scu.edu
-Topic: AI Model create
-DataAnalysis: on
-Design: on
-Frontend: on
-Prototyping: on
-Major: ECEN
-Submit: Submit

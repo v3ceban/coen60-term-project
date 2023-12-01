@@ -1,8 +1,0 @@
-Name: Cown Duke
-Email: cduke546@scu.edu
-Topic: Want to create a small game similar to 2048
-DataAnalysis: on
-Design: on
-Frontend: on
-Major: CSEN
-Submit: Submit

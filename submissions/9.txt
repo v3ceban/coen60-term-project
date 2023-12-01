@@ -1,8 +1,0 @@
-Name: Vladimir Ceban
-Email: vceban@scu.edu
-Topic: Robot octopus
-CAD: on
-Electronics: on
-Research: on
-Major: MECH
-Submit: Submit

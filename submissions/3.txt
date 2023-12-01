@@ -1,9 +1,0 @@
-Name: Sarah White
-Email: swite55@scu.edu
-Topic: Automated translation glasses, simultenious subtitles
-Backend: on
-DataAnalysis: on
-Electronics: on
-Robotics: on
-Major: ECEN
-Submit: Submit
