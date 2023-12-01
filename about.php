@@ -73,7 +73,7 @@
                 Vladimir Ceban is a transfer Web Design major.
                 <br />
                 <br />
-                he created the form section of this website.
+                He created the form section of this website.
               </b>
               <br />
               He was born in Moldova, speaks Russian, and works part time as a Social Media Intern with <br>the Exclusive Excellence Department at SCU.
@@ -81,6 +81,20 @@
             </p>
           </li>
         </ul>
+
+        <section>
+          <h2>Project Description</h2>
+          <h3>Design</h3>
+          <p>
+            We used Santa Clara University's brand colors and style guide to highlight the identity and affiliation with the university.<br> 
+            The site was deliberately made simple to make it as easy as possible to use and navigate.
+          </p>
+          <h3>Technologies</h3>
+          <p>
+            We used HTML and CSS for the basic layout, however, our HTML is embedded in PHP files to make the development experience easier and modular.<br>
+            We also used JavaScript to validate the form on the front end and add some interactive elements to the Archives page.<br>
+            On the back end, we used PHP to process the form, scrap all data from submissions, store them in text files, and return back as HTML elements.          </p>
+        </section>
       </div>
     </main>
     <!--footer-->

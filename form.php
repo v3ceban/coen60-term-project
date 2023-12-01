@@ -211,6 +211,10 @@
             <label for="ELEN">Electrical Engineering</label>
           </div>
           <div class="radio">
+            <input type="radio" name="Major" value="INTER" id="INTER"/>
+            <label for="INTER">Interdisciplinary</label>
+          </div>
+          <div class="radio">
             <input type="radio" name="Major" value="GEN" id="GEN"/>
             <label for="GEN">General Engineering</label>
           </div>

@@ -1,0 +1,8 @@
+Name: Test Inclass
+Email: test@scu.edu
+Topic: Robot
+DataAnalysis: on
+Electronics: on
+Prototyping: on
+Major: CIV
+Submit: Submit
